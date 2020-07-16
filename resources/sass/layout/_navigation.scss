@@ -1,0 +1,212 @@
+// .logo{
+//   z-index: 3 !important;
+//   a{
+//     font-family: $font-logo;
+//     font-size: 1.5rem;
+//     color: $strong-pink;
+//     &:hover {
+//       color: $strong-pink;
+//       text-decoration: none;
+//     }
+//   }
+// }
+.nav-upper {
+  .nav-link {
+    color: #fff !important;
+    padding: 0 1rem !important;
+  }
+}
+.nav-main {
+  .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+// .navbar {
+//   position: relative;
+//   z-index: 2;
+//   transition: .4s ease-in-out;
+
+//   .nav-item {
+//     cursor: pointer;
+//     font-family: $font-title;
+//     font-size: 1.4rem;
+//   }
+
+//   .nav-link {
+//     color: $strong-pink;
+//     font-weight: 600;
+//     &:hover {
+//       color: $strong-pink;
+//     }
+//   }
+//   .nav-link-small {
+//     font-size: 1.2rem;
+//     color: $strong-pink;
+//     font-weight: 600;
+//     &:hover {
+//       background-color: $bg-light;
+//       color: $strong-pink;
+//     }
+//   }
+//   .navbar-nav li a:hover, .navbar-nav li.active a {
+//     transition: 300ms all ease;
+//   }
+//     .dropdown-menu {
+//     border-radius: 10px;
+//     background-color: $bg-light;
+//     padding: 15px 20px;
+//     margin-left: -30px;
+//   }
+//   .mydropdowncss:hover .dropdown-menu {
+//       display: block;
+//       margin-top: 0;
+//       background-color: $bg-light;
+//   }
+//   .dropdown-item {
+//     margin: 0 !important;
+//     padding: 5px 10px !important;
+//   }
+// }
+
+
+//  .navbar-fixed {
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+//   z-index: 100;
+//   box-shadow: 0 3px 5px rgba(254, 67, 101, 0.5);
+//   background-color: $bg-light;
+//   transition: .4s ease-in-out;
+
+//     .nav-link-fixed {
+//       color: $strong-pink !important;
+//     }
+
+//     .nav-link-small-fixed {
+//       font-size: 0.9rem;
+//       color: $strong-pink !important;
+//       background-color: $bg-light;
+//       &:hover {
+//         background-color: $bg-light !important;
+//       }
+//     }
+//   }
+
+//   .fa-bars {
+//     color: $strong-pink;
+//     &:hover {
+//       color: $bg-dark; 
+//     }
+//     &:focus {
+//       outline:none;
+//       box-shadow: none;
+//     }
+//   }
+
+
+// @media all and (max-width:992px){
+//   /***** SIDEBAR *****/
+//   .openbtn {
+//     z-index: 999;
+//     font-size: 1.5rem;
+//     &:focus {
+//       outline:none;
+//       box-shadow: none;
+//     }
+//   }
+//   .sidebar {
+//     height: 0;
+//     width: 100vw;
+//     border-radius: 0;
+//     position: fixed;
+//     z-index: 20;
+//     top: 0;
+//     background-color: $sidebar;
+//     overflow: hidden;
+//     transition: 0.5s;
+//     padding: 0px !important;
+  
+//     .nav-item {
+//       width: 33%;
+//       margin: 0 auto;
+//       font-family: $font-title;
+//     }
+
+//     .nav-link {
+//       text-decoration: none;
+//       font-size: 2.5rem;
+//       color: $strong-pink;
+//       transition: 0.3s;
+//     }
+
+//     .nav-link-small-sidebar {
+//       text-decoration: none;
+//       transition: 0.3s;
+//       font-size: 1.7rem;
+//       font-weight: 500;
+//       color: $strong-pink !important;
+//     }
+//     .dropdown-menu {
+//       position: relative !important;
+//       transform: none !important;
+//       text-align: center !important;
+//       border: none;
+//       background-color: transparent;
+//       margin-left: 10px;
+//     }
+//     .side-nav {
+//       padding: 0 !important;
+//     }
+//   }
+
+//     .closebtn {
+//       position: absolute;
+//       top: 0;
+//       right: 3%;
+//       font-size: 3rem;
+//       color: $strong-pink;
+//       padding: 0 !important;
+//       &:hover {
+//         color: $bg-dark; 
+//       }
+//     }
+// }
+
+// @media screen and (max-width:810px){
+//   .sidebar .nav-item {
+//     width: 40%;
+//   } 
+// }
+// @media screen and (max-width:770px){
+//   /***** SIDEBAR *****/
+//   .sidebar .nav-item {
+//     width: 43%;
+//   } 
+// }
+
+// @media screen and (max-width:620px){
+//   .sidebar .nav-item {
+//     width: 50%;
+//   } 
+// }
+// @media screen and (max-width:600px){
+//   /***** SIDEBAR *****/
+//   .sidebar .closebtn {
+//     right: 4%;
+//   }
+//     .sidebar .nav-item {
+//     width: 55%;
+//   }
+// }
+
+// @media all and (max-width:400px){
+//   /***** SIDEBAR *****/
+//   .sidebar {padding-top: 10px;}
+//   .sidebar .nav-item {
+//     width: 80%;
+//   }
+// }

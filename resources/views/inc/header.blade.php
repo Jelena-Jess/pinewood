@@ -1,0 +1,11 @@
+<header>
+  <section class="header bg-dark">
+    <img src="images/header.png" alt="" class="header-img">
+    <div class="header-text">
+      <h1><span class="purple">Teaching & </span> <span class="orange">Social Development</span></h1>
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis eveniet labore dolorem. Asperiores, iusto.</h4>
+      <button>Contact us</button>
+    </div>
+  </section>
+  <section class="bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti, quia necessitatibus, consequuntur, ipsa optio molestiae quae aliquam vero voluptatem illum vel commodi neque tempora cumque voluptas magni non adipisci corporis? Labore facere dicta error officia aspernatur saepe velit cupiditate exercitationem, animi eos. Voluptate omnis minus quis fugit nisi praesentium dolor, quod similique blanditiis voluptatum libero nulla? Corrupti esse voluptatibus, et minus, neque eum rerum dignissimos beatae dolorem harum sint? Tenetur quam consectetur nesciunt similique molestias voluptatibus doloribus officia illum optio exercitationem temporibus tempora obcaecati, quasi quod rem blanditiis maiores distinctio! Maxime quo ad magni repudiandae ex quos reprehenderit delectus modi voluptatem distinctio accusantium explicabo quas libero pariatur qui iste harum perferendis aperiam, exercitationem sunt. Iste, quos ea, eius id modi possimus sed doloribus, laborum accusamus dolor neque blanditiis explicabo deserunt repellendus rerum magni unde accusantium perspiciatis. Odio magnam laudantium ipsam laborum reiciendis, iste, veniam, ab rerum culpa voluptate fuga nostrum. Optio, sequi. Consequatur eveniet vitae iure blanditiis corrupti architecto eius expedita, ullam asperiores ut neque consectetur minima rem quis fugit illum nulla voluptate! Fugit commodi a, quibusdam nobis rerum esse tempora nemo nihil dolor, impedit corrupti accusantium voluptatem! Laudantium molestiae dicta explicabo numquam repellendus illo aut et officia. Sed!</section>
+</header>
