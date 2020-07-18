@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand-md navbar-light shadow-sm bg-dark">
-    <div class="container nav-upper">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><span  class="nav-link" href="">info@example.com</span></li>
-            <li class="nav-item"><span  class="nav-link" href="">888 888 8888</span></li>
+<nav class="navbar nav-upper navbar-expand-md navbar-light shadow-sm bg-footer">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item pr-4"><span href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> info@example.com</span></li>
+            <li class="nav-item"><span href=""><i class="fa fa-phone" aria-hidden="true"></i> 888 888 8888</span></li>
         </ul>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
             <!-- Authentication Links -->
             @guest
                 <li class="nav-item">
@@ -57,12 +57,12 @@
 
           <!-- Right Side Of Navbar -->
           <ul class="nav-main navbar-nav ml-auto">
-            <li><a  class="nav-link hvr-underline-from-center pink" href="">Home</a></li>
-            <li><a  class="nav-link hvr-underline-from-center blue" href="">About</a></li>
-            <li><a  class="nav-link hvr-underline-from-center green" href="">Courses</a></li>
-            <li><a  class="nav-link hvr-underline-from-center orange" href="">Gallery</a></li>
-            <li><a  class="nav-link hvr-underline-from-center purple" href="">Blog</a></li>
-            <li><a  class="nav-link hvr-underline-from-center red" href="">Contact</a></li>
+            <li><a  class="nav-link hvr-underline-from-center" href="">Home</a></li>
+            <li><a  class="nav-link hvr-underline-from-center" href="">About</a></li>
+            <li><a  class="nav-link hvr-underline-from-center" href="">Courses</a></li>
+            <li><a  class="nav-link hvr-underline-from-center" href="">Gallery</a></li>
+            <li><a  class="nav-link hvr-underline-from-center" href="">Blog</a></li>
+            <li><a  class="nav-link hvr-underline-from-center" href="">Contact</a></li>
           </ul>
       </div>
   </div>

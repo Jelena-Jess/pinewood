@@ -1,0 +1,58 @@
+.fa-circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 0;
+  div {
+    text-align: center;
+  }
+  .fa, .fas {
+    padding: 50px; 
+    border-radius: 50%;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #fff;
+    background-color: $blue;
+  }
+}
+.reasons-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  > div {
+    width: 30%;
+    margin: 20px 10px;
+  }
+}
+.courses-cards {
+  div {
+    margin: 20px;
+  }
+}
+
+@media all and (max-width:992px){
+  .fa-circles {
+    padding: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    div {
+      margin: 30px;
+    }
+  }
+  .reasons-cards {
+    > div {
+      width: 45%;
+    }
+  }
+}
+
+@media all and (max-width:767px){
+  .reasons-cards {
+    > div {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+}
+

@@ -12,16 +12,21 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+ 
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/slick.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/slick-theme.css') }}" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="app">
         @include('inc.navbar')
         @include('inc.header')
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
@@ -31,7 +36,9 @@
      <script>
      CKEDITOR.replace( 'article-ckeditor' );
      </script>
-
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="{{ asset('js/app.js') }}" defer></script>
+     <script src="{{ asset('js/slick.min.js') }}" defer></script>
+     
 </body>
 </html>

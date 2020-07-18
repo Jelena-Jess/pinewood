@@ -1,32 +1,27 @@
-// .button {
-//   display: block;
-//   position: relative;
-//   left: 50%;
-//   top: 40%;
-//   height: auto;
-//   padding: 0.5rem;
-//   width: 15rem;
-//   border-radius: 5px;
-//   text-align: center;
-//   color: #fff;
-//   border: #fff solid 0.2rem;
-//   background-color: $button;
-//   font-size: 1.1rem;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   transform: translateX(-50%);
-//   box-shadow: -3px 3px 10px rgba(0,0,0,0.3) !important;
-//   font-family: 'Cairo', sans-serif;
-//   &:hover{
-//     border-color: $button;
-//     text-decoration: none;
-//     color: #fff;
-//   }
-//   &:focus {
-//     outline:none;
-//     box-shadow: none;
-//   }
-// }
+.button {
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: $button;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+  border: none;
+  outline:none;
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: $button-hover;
+  }
+  &:focus {
+    outline:none;
+    box-shadow: none;
+    background-color: $button-hover;
+  }
+}
 
 // .btn {
 //   background-color: $button;

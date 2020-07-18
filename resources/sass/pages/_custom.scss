@@ -45,39 +45,34 @@ html, body {
 // }
 
 /***** COLORS *****/
-.bg-light {
-  @include background-color($bg-light);
-  //background-color: $bg-light ;
-}
+.bg-light {@include background-color($bg-light);}
+.bg-dark {@include background-color($bg-dark);}
+.bg-blue {@include background-color($bg-blue);}
+.bg-green {@include background-color($bg-green);}
+.bg-orange {@include background-color($bg-orange);}
+.bg-pink {@include background-color($bg-pink);}
+.back-purple {@include background-color($back-purple);}
+.bg-footer {@include background-color($bg-footer);}
 
-.bg-dark {
-  @include background-color($bg-dark);
-  //background-color: $bg-dark ;
-}
-.bg-footer {
-   @include background-color($bg-footer);
-}
-.bg-grey {
-  @include background-color($bg-grey);
-}
-.bg-pink {
-  @include background-color($button);
-}
-.bg-light-pink {
-  @include background-color($light-pink);
-}
-.bg-very-light-pink {
-  @include background-color($very-light-pink);
-}
-.pink {color: $strong-pink !important;}
-.blue {color: blue !important;}
-.green{color: green !important;}
-.orange{color: orange !important;}
-.purple {color: purple !important;}
-.red {color: red !important;}
-.grey {
-  @include background-color($grey);
-}
+.pink-bg {@include background-color($pink);}
+.blue-bg {@include background-color($blue);}
+.green-bg {@include background-color($green);}
+.orange-bg {@include background-color($orange);}
+.purple-bg {@include background-color($purple);}
+.red-bg {@include background-color($red);}
+.yellow-bg {@include background-color($yellow);}
+.grey-bg {@include background-color($grey);}
+
+.pink-text {color: $pink !important;}
+.blue-text {color: $blue !important;}
+.green-text {color: $green !important;}
+.orange-text {color: $orange !important;}
+.purple-text {color: $purple !important;}
+.red-text {color: $red !important;}
+.yellow-text {color: $yellow !important;}
+.grey-text {color: $grey !important;}
+
+
 
 // /***** FONTS *****/
 // h1, h2, h3, h4, h5, h6{
