@@ -46,27 +46,27 @@
 // }
 
 
-// /******* GO TO TOP BUTTON ********/
-// .gotop {
-//   position: fixed;
-//   width: 40px;
-//   height: 40px;
-//   border-radius: 50%;
-//   background: $strong-pink;
-//   bottom: 40px;
-//   right: 40px;
-//   text-decoration: none;
-//   color: #fff;
-//   font-size: 25px;
-//   overflow: hidden;
-//   z-index: 999;
-//   display: none;
-//   cursor: pointer;
-//   text-align: center;
-//   &:hover {
-//     color: #fff;
-//   }
-// }
+/******* GO TO TOP BUTTON ********/
+.gotop {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: $green;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    color: #fff;
+  }
+}
 
 // @media all and (max-width:992px){
 //   .btn {

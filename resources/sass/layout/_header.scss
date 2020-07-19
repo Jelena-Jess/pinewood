@@ -1,27 +1,55 @@
-.header {
+.module {
+  background: url("../assets/images/header.jpg");
+  background-size: cover;
+  background-position: center center;
   width: 100%;
-  height: 100vh; 
-}
-.header-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 90vh;
   position: relative;
-}
-.header-text {
-  position: absolute;
-  left: 60%;
-  margin-left: -50px;
-  margin-right: 5%;
-  top: 10%;
-  margin-top: -50px;
-}
-
-@media all and (max-width:992px){
-  .header-text {
-    top: 20%;
+  > header {
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    background: inherit;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  > header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: inherit;
+    background-attachment: fixed;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  > header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25)
+  }
+  > header > h1, h4, button {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
   }
 }
+
+
+
+
+
 // .section-all {
 //   width: 100%;
 //   height: 45vh;

@@ -1,10 +1,12 @@
-<header>
-  <section class="header bg-blue">
-    <img src="images/header.png" alt="" class="header-img">
-    <div class="header-text">
-      <h1><span class="blue-text">Learn a new language. </span> <span class="green-text">Open your world.</span></h1>
-      <h4>Get the language skills, cultural understanding and confidence to open up your world with Pinewood. Welcome to our jungle.</h4>
-      <button class="button">Contact us</button>
+<div class="module">
+  <header class="pt-3 pb-4">
+    <h1 class="py-2 text-center"><span class="blue-text">Learn a new language. </span> <span class="green-text">Welcome to our jungle.</span></h1>
+    <div class="text-center">
+      <button class="button my-2">Contact us</button>
     </div>
-  </section>
-</header>
+  </header>
+</div>
+
+</div>
+  <a class="gotop" href=""><i class="fa fa-arrow-up"></i></a>
+</div>

@@ -29,6 +29,8 @@
         <main>
             @yield('content')
         </main>
+
+        @include('inc.footer')
     </div>
 
      <!-- Scripts -->
@@ -37,6 +39,7 @@
      CKEDITOR.replace( 'article-ckeditor' );
      </script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="{{ asset('js/main.js') }}" defer></script>
      <script src="{{ asset('js/app.js') }}" defer></script>
      <script src="{{ asset('js/slick.min.js') }}" defer></script>
      
