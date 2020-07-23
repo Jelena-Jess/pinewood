@@ -2,6 +2,13 @@
 
 @section('content')
   
+<section class="py-5 bg-green">
+    <div class="py-5 container text-center py-3">
+        <h1 class="pb-5">About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorum repellat. Adipisci perspiciatis vel ipsum voluptatem nobis accusamus officia ad quos dolorem maxime quasi repellat temporibus neque iure, laborum natus. Earum ullam quasi, veniam omnis numquam perspiciatis necessitatibus consequuntur ad nulla, delectus libero dicta? Explicabo rerum nobis dignissimos dolore officiis!</p>     
+    </div>
+</section>
+
 <section class="bg-dark">
     <div class="py-5 container">
         <h1 class="py-5 text-center">Why learn with Pinewood?</h1>
@@ -56,35 +63,35 @@
           <div class="slider courses-cards">
         
             <div class="course-info ">
-                <div class="inner"><img src="../assets/images/header.jpg" alt=""></div>
+                <div class="inner"><a href=""><img src="../assets/images/header.jpg" alt=""></a></div>
                 <h4 class="text-center my-2">Courses for kids</h4>
                 <div class="text-center my-3">
                     <button class="button">Details</button>
                 </div>
             </div>
             <div class="course-info ">
-                <div class="inner"><img src="../assets/images/header.jpg" alt=""></div>
+                <div class="inner"><a href=""><img src="../assets/images/header.jpg" alt=""></a></div>
                 <h4 class="text-center my-2">Courses for teens</h4>
                 <div class="text-center my-3">
                     <button class="button">Details</button>
                 </div>
             </div>
             <div class="course-info ">
-                <div class="inner"><img src="../assets/images/header.jpg" alt=""></div>
+                <div class="inner"><a href=""><img src="../assets/images/header.jpg" alt=""></a></div>
                 <h4 class="text-center my-2">Courses for adults</h4>
                 <div class="text-center my-3">
                     <button class="button">Details</button>
                 </div>
             </div>
             <div class="course-info ">
-                <div class="inner"><img src="../assets/images/header.jpg" alt=""></div>
+                <div class="inner"><a href=""><img src="../assets/images/header.jpg" alt=""></a></div>
                 <h4 class="text-center my-2">Business training</h4>
                 <div class="text-center my-3">
                     <button class="button">Details</button>
                 </div>
             </div>
             <div class="course-info ">
-                <div class="inner"><img src="../assets/images/header.jpg" alt=""></div>
+                <div class="inner"><a href=""><img src="../assets/images/header.jpg" alt=""></a></div>
                 <h4 class="text-center my-2">Cambridge exams</h4>
                 <div class="text-center my-3">
                     <button class="button">Details</button>
@@ -104,26 +111,26 @@
         </div>
         <form action="" method="" class="subscribe">
             <div>
-            <input type="email" name="email" id="email" placeholder="Your email" required>
+                <input type="email" name="email" id="email" placeholder="Your email" required>
             </div>
             <div class="ml-3">
                 <button class="button" type="submit">Get your test</button>
-            </div>
+            </div> 
         </form>       
     </div>
 </section>
 
 <section>
     <div class="container my-5">
-      <div class="d-flex justify-content-between py-5">
-        <div class="w-50 mr-2">
+      <div class="py-5 video-section">
+        <div class="mr-2">
             <h1>Take a tour of Pinewood School</h1>
             <p>Join us as Ivana from Pinewood shows you around the school. Explore classrooms, check out our facilties and find out why students choose to improve their English here.</p>
             <div class="">
                 <button class="button my-2">Contact us</button>
               </div>
         </div>
-        <div class="w-50 ml-2">
+        <div class="ml-2">
             <video class="video" controls>
             <source src="../assets/videos/about.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -133,6 +140,40 @@
     </div>
 </section>
 
-<section></section>
+<section class="bg-green py-5">
+    <div class="container py-5">
+        <h1 class="pb-5 text-center">Latest blog posts</h1>
+        <div class="d-flex flex-wrap justify-content-between">
+            <div class="blog-post m-3">
+                <div class="blog-image inner">
+                    <a href=""><img src="../assets/images/header.jpg" alt=""></a>
+                </div>
+                <div class="blog-text p-3">
+                    <div class="d-flex justify-content-between mb-auto">
+                        <p class=""><a href="">Category</a></p>
+                        <p class="">Date</p>
+                    </div>
+                    <div class="mb-auto">
+                        <h4 class="font-weight-bold"><a href="">Post title</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-post m-3">
+                <div class="blog-image inner">
+                    <a href=""><img src="../assets/images/header.jpg" alt=""></a>
+                </div>
+                <div class="blog-text p-3">
+                    <div class="d-flex justify-content-between mb-auto">
+                        <p class=""><a href="">Category</a></p>
+                        <p class="">Date</p>
+                    </div>
+                    <div class="mb-auto">
+                        <h4 class="font-weight-bold"><a href="">Post title</a></h4>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+</section>
 
 @endsection

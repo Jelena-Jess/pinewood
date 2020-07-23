@@ -203,3 +203,23 @@
     opacity: .75;
     color: #3286d4;
 }
+
+@media all and (max-width:600px){
+    .slick-prev
+    {
+        left: -5px;
+    }
+    [dir='rtl'] .slick-prev
+    {
+        right: -5px;
+    }
+    
+    .slick-next
+    {
+        right: -5px;
+    }
+    [dir='rtl'] .slick-next
+    {
+        left: -5px;
+    }
+}

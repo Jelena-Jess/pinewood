@@ -10982,6 +10982,14 @@ a.text-dark:focus {
   z-index: 1;
 }
 
+@media all and (max-width: 767px) {
+  .module > header {
+    left: 10%;
+    right: 10%;
+    width: 80%;
+  }
+}
+
 .nav-upper {
   display: flex;
   justify-content: space-between;
@@ -11297,7 +11305,7 @@ body {
 }
 
 .courses-cards > div {
-  margin: 20px;
+  margin: 30px;
 }
 
 .courses-cards > div img {
@@ -11353,6 +11361,25 @@ body {
   background-color: #fff;
 }
 
+.blog-post {
+  width: 45%;
+}
+
+.blog-post img {
+  width: 100%;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.video-section > div {
+  width: 50%;
+  text-align: center;
+}
+
 @media all and (max-width: 992px) {
   .fa-circles {
     padding: 50px;
@@ -11367,12 +11394,57 @@ body {
   .reasons-cards > div {
     width: 45%;
   }
+
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+  }
+
+  .video-section > div {
+    width: 80%;
+  }
+
+  .video-section .video {
+    margin-top: 30px;
+  }
 }
 
 @media all and (max-width: 767px) {
   .reasons-cards > div {
     width: 80%;
     margin-bottom: 30px;
+  }
+
+  .blog-post {
+    width: 90%;
+  }
+
+  .video-section > div {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe > div {
+    text-align: center;
+  }
+
+  .subscribe input[type=email] {
+    width: 80%;
+    padding: 9px 10px 8px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: #fff;
   }
 }
 

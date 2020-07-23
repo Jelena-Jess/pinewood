@@ -46,6 +46,16 @@
   }
 }
 
+@media all and (max-width:767px){
+  .module {
+    > header {
+      left: 10%;
+      right: 10%;
+      width: 80%;
+    }
+  }
+}
+
 
 
 
