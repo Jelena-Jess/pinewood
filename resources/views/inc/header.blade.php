@@ -1,6 +1,7 @@
 <div class="module">
+  @include('inc.navbar')
   <header class="pt-3 pb-4">
-    <h1 class="py-2 text-center"><span class="blue-text">Learn a new language. </span> <span class="green-text">Welcome to our jungle.</span></h1>
+    <h1 class="py-2 text-center"><span class="text-shadow blue-text">Learn a new language. </span> <span class="green-text">Welcome to our jungle.</span></h1>
     <div class="text-center">
       <button class="button my-2">Contact us</button>
     </div>

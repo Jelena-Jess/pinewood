@@ -46,6 +46,7 @@ html, body {
 
 /***** COLORS *****/
 .bg-light {@include background-color($bg-light);}
+.bg-beige {@include background-color($bg-beige);}
 .bg-dark {@include background-color($bg-dark);}
 .bg-blue {@include background-color($bg-blue);}
 .bg-green {@include background-color($bg-green);}
@@ -53,6 +54,7 @@ html, body {
 .bg-pink {@include background-color($bg-pink);}
 .back-purple {@include background-color($back-purple);}
 .bg-footer {@include background-color($bg-footer);}
+.bg-footer-bottom {@include background-color($bg-footer-bottom);}
 
 .pink-bg {@include background-color($pink);}
 .blue-bg {@include background-color($blue);}
@@ -64,7 +66,7 @@ html, body {
 .grey-bg {@include background-color($grey);}
 
 .pink-text {color: $pink !important;}
-.blue-text {color: $blue !important;}
+.blue-text {color: $light-blue !important;}
 .green-text {color: $green !important;}
 .orange-text {color: $orange !important;}
 .purple-text {color: $purple !important;}

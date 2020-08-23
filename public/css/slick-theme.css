@@ -40,7 +40,7 @@
     color: #fff;
     border: none;
     outline: none;
-    background: #90b8dd;
+    background: #358d5d;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -49,7 +49,7 @@
 {
     color: #fff;
     outline: none;
-    background: #5b9ad4;
+    background: #47c47f;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -193,7 +193,7 @@
     text-align: center;
 
     opacity: .25;
-    color: #3286d4;
+    color: #358d5d;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -201,7 +201,7 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: #3286d4;
+    color: #358d5d;
 }
 
 @media all and (max-width:600px){

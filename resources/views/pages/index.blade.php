@@ -54,7 +54,7 @@
     </div>
 </section>
 
-<section class="bg-light">
+<section class="bg-beige">
     <div class="py-5 container">
         <h1 class="py-5 text-center">Find your course</h1>
         <h5 class="text-center">Pinewood offers a broad selection of language courses for adults, companies, and kids and teens. Or you can take advantage of our wide range of intercultural and business seminars. Choose from the options below to find the course that’s right for you, and join us on the journey ahead.</h5>
@@ -109,7 +109,7 @@
             <h1>Free Assessment</h1>
             <p>We offer an extensive range of classes and workshops, do a test and find out what level you are.</p>
         </div>
-        <form action="" method="" class="subscribe">
+        <form action="" method="" class="subscribe pb-5">
             <div>
                 <input type="email" name="email" id="email" placeholder="Your email" required>
             </div>
@@ -120,8 +120,8 @@
     </div>
 </section>
 
-<section>
-    <div class="container my-5">
+<section class="bg-beige">
+    <div class="container py-5">
       <div class="py-5 video-section">
         <div class="mr-2">
             <h1>Take a tour of Pinewood School</h1>

@@ -52,7 +52,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: $green;
+  background: $button;
   bottom: 40px;
   right: 40px;
   text-decoration: none;
@@ -64,6 +64,7 @@
   cursor: pointer;
   text-align: center;
   &:hover {
+    background: $button-hover;
     color: #fff;
   }
 }

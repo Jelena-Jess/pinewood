@@ -23,8 +23,13 @@
 </head>
 <body>
     <div id="app">
-        @include('inc.navbar')
-        @include('inc.header')
+        @include('inc.navbar-top')
+
+        @if(\Request::is("/"))
+            @include('inc.header')
+        @else 
+            @include('inc.header_pages')
+        @endif
 
         <main>
             @yield('content')

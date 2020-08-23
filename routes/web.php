@@ -22,3 +22,11 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 
 Route::get('/', 'PagesController@index')->name('home');
+Route::get('about', 'PagesController@about')->name('about');
+Route::get('courses', 'PagesController@courses')->name('courses');
+Route::get('courses_kids', 'PagesController@courses_kids')->name('courses_kids');
+Route::get('courses_teens', 'PagesController@courses_teens')->name('courses_teens');
+Route::get('courses_adults', 'PagesController@courses_adults')->name('courses_adults');
+Route::get('courses_business', 'PagesController@courses_business')->name('courses_business');
+Route::get('courses_exams', 'PagesController@courses_exams')->name('courses_exams');
+Route::get('gallery', 'PagesController@gallery')->name('gallery');
