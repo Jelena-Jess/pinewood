@@ -55,8 +55,8 @@
 }
 
 .inner:hover img {
-    transform: scale(1.1);
-    filter: brightness(50%);
+  transform: scale(1.1);
+  filter: brightness(50%);
 }
 
 .video {
@@ -79,14 +79,6 @@
     border-radius: 7px;
     box-sizing: border-box;
     background-color: $bg-light;
-  }
-}
-
-//blog post
-.blog-post {
-  width: 45%;
-  img {
-    width: 100%;
   }
 }
 

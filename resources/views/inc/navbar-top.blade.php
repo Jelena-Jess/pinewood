@@ -1,8 +1,8 @@
 <nav class="navbar nav-upper navbar-expand-md shadow-sm bg-footer py-2">
     <div class="container py-1">
         <ul class="navbar-nav">
-            <li class="nav-item pr-4"><span href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> pinewoodschoolns@gmail.com</span></li>
-            <li class="nav-item"><span href=""><i class="fa fa-phone" aria-hidden="true"></i> 062-600-047</span></li>
+            <li class="nav-item pr-4"> <a href="" class="nav-link"><i class="fa fa-envelope-o" aria-hidden="true"></i> pinewoodschoolns@gmail.com</a> </li>
+            <li class="nav-item"> <a href="" class="nav-link"><i class="fa fa-phone" aria-hidden="true"></i> 062-600-047</a> </li>
         </ul>
         <ul class="navbar-nav">
             <!-- Authentication Links -->

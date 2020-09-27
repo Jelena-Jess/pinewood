@@ -73,14 +73,25 @@ html, body {
 .red-text {color: $red !important;}
 .yellow-text {color: $yellow !important;}
 .grey-text {color: $grey !important;}
-
+.white-text {color: $bg-light !important;}
+.dark-text{color: $bg-dark !important;}
 
 
 // /***** FONTS *****/
-// h1, h2, h3, h4, h5, h6{
-//   //color: $bg-dark;
-//   font-family: $font-title;
-// } 
+h1, h2, h3, h4, h5, h6{
+  //color: $bg-dark;
+  font-family: $font-heading;
+} 
+@media all and (max-width:992px){
+  h1 {
+    font-size: 2.5rem;
+  } 
+}
+@media all and (max-width:600px){
+  h1 {
+    font-size: 2.2rem;
+  } 
+}
 // p, li {
 //   font-family: $font-text;
 //   font-size: 18px;

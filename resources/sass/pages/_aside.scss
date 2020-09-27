@@ -1,0 +1,54 @@
+.col-9 {
+  padding: 0 !important;
+}
+.course-main {
+  margin-right: 70px;
+}
+aside {
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    input[type=email]{
+      width: 100%;
+      padding: 9px 10px 8px 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 7px;
+      box-sizing: border-box;
+      background-color: $bg-light;
+    }
+    .button {
+      width: 100%;
+    }
+  }
+  .aside {
+    a {
+      display: block;
+      padding: 10px;
+      border-bottom: solid 2px $green;
+      color: $button;
+      font-family: $font-heading;
+      font-size: 1.2rem;
+      &:hover {
+        text-decoration: none;
+        background-color: $bg-green;
+      }
+    }
+    .aside-title {
+      padding: 15px;
+      background-color: $green;
+    }
+  }
+}
+
+.blog-aside {
+  img {
+    width: 100%;
+  }
+}
+
+@media all and (max-width:767px){
+  .aside {
+  }
+}

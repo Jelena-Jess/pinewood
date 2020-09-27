@@ -3,7 +3,7 @@
 @section('content')
   
 <section class="py-5 bg-green">
-    <div class="py-5 container text-center py-3">
+    <div class="py-5 container text-center">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorum repellat. Adipisci perspiciatis vel ipsum voluptatem nobis accusamus officia ad quos dolorem maxime quasi repellat temporibus neque iure, laborum natus. Earum ullam quasi, veniam omnis numquam perspiciatis necessitatibus consequuntur ad nulla, delectus libero dicta? Explicabo rerum nobis dignissimos dolore officiis!</p>     
     </div>
 </section>

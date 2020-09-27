@@ -1,7 +1,7 @@
 <nav class="navbar navbar-bottom navbar-expand-md navbar-light">
     <div class="container">
-        <a class="navbar-brand green-text" href="{{ url('/') }}">
-            {{ config('app.name', 'Pinewood') }}
+        <a class="navbar-brand white-text" href="{{ url('/') }}">
+            {{ config('app.name', 'Pinewood') }} <img src="../assets/images/logo.png" alt="" class="logo-img">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

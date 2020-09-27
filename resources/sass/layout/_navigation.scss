@@ -1,10 +1,17 @@
 .navbar-brand {
-  padding: 10px;
+  padding: 5px 20px;
+  margin: 5px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: $button;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+}
+.logo-img {
+  height: 40px;
 }
 
 .navbar {
+  //padding: 0 !important;
   .container {
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -24,22 +31,26 @@
     color: #fff !important;
     padding: 0 1rem !important;
     &:hover {
-      color: #fff!important;
+      color: $button!important;
     }
   }
 }
 .navbar-bottom {
+  //background-color: $button;
   z-index: 10;
 }
 .nav-main {
+  background-color: $button;
+  border-radius: 10px;
   .nav-link {
     font-size: 1.1rem;
     font-weight: 600;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-    color: #000 !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    color: #fff !important;
+    border-radius: 10px;
     &:hover {
-      color: #000 !important;
+      background-color: $button-hover;
     }
   }
 }
@@ -47,9 +58,43 @@
   border: none !important;
   background-color: transparent;
   .dropdown-item {
-    color: #000 !important;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem !important;
+    margin: 5px;
+    color: #fff !important;
+    border-radius: 10px;
+    background-color: $button;
     &:hover {
-      color: #000 !important;
+      background-color: $button-hover;
+    }
+  }
+}
+
+@media screen and (max-width:992px){
+  .navbar-brand {
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  .logo-img {
+    height: 35px;
+  }
+  .nav-main {
+    .nav-link {
+      font-size: 1rem;
+      padding-left: 0.8rem !important;
+      padding-right: 0.8rem !important;
+      color: #fff !important;
+      background-color: $button;
+      padding: 0.5rem 0.8rem;
+    }
+  }
+  .dropdown-menu {
+    .dropdown-item {
+      padding-left: 0.3rem !important;
+      padding-right: 0.3rem !important;
     }
   }
 }
@@ -66,8 +111,29 @@
   }
   .navbar-bottom {
     background-color: $button;
+    padding: 0;
     .nav-item {
       text-align: center;
+    }
+  }
+}
+
+@media all and (max-width:600px){
+  .nav-upper {
+    .container {
+      padding: 0 !important;
+    }
+  }
+}
+
+@media all and (max-width:485px){
+  .nav-upper {
+    font-size: 0.9rem;
+    .navbar-nav:nth-child(1) {
+      display: flex;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center;
     }
   }
 }

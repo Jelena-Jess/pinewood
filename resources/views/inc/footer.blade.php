@@ -3,14 +3,15 @@
     <div class="container pt-5 d-flex flex-wrap flex-xl-row flex-lg-row -flex-md-column flex-sm-column flex-column justify-content-between">
       <div class="footer-half">
         <div class="mx-2">
-          <h4 class="logo mb-3">Pinewood</h4>
+          <a class="navbar-brand white-text" href="{{ url('/') }}">
+            {{ config('app.name', 'Pinewood') }} <img src="../assets/images/logo.png" alt="" class="logo-img"></a>
           <p>Ivana Radojević</p>
           <p>Bulevar Kralja Petra I 18a</p>
           <p>Novi Sad, Srbija</p>
           <p>062-600-047 | 021-6331-587</p>
           <p>pinewoodschoolns@gmail.com</p>
         </div>
-        <div class="mx-2">
+        <div class="footer-menu mx-2">
           <h4>Menu</h4>
           <p class=""><a href="" class="">Home</a></p>
           <p><a href="">About</a></p>
