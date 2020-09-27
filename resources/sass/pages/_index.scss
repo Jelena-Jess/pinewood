@@ -1,3 +1,28 @@
+.forest {
+  position: relative;
+  .forest1 {
+    height: 50%;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+  }
+  .forest2 {
+    height: 50%;
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+  }
+  div {
+    z-index: 1;
+  }
+}
+
 .fa-circles {
   display: flex;
   flex-direction: row;
@@ -123,6 +148,21 @@
 }
 
 @media all and (max-width:767px){
+  .forest {
+    position: relative;
+    .forest1 {
+      height: 50%;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      opacity: 0.1;
+      z-index: 0;
+    }
+    .forest2 {
+      display: none;
+    }
+  }
   .reasons-cards {
     > div {
       width: 80%;

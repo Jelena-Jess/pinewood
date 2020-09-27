@@ -2,7 +2,9 @@
 
 @section('content')
   
-<section class="py-5 bg-green">
+<section class="py-5 bg-green forest">
+    <img src="../assets/images/forest.png" alt="" class="forest1">
+    <img src="../assets/images/forest.png" alt="" class="forest2">
     <div class="py-5 container text-center py-3">
         <h1 class="pb-3">About us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorum repellat. Adipisci perspiciatis vel ipsum voluptatem nobis accusamus officia ad quos dolorem maxime quasi repellat temporibus neque iure, laborum natus. Earum ullam quasi, veniam omnis numquam perspiciatis necessitatibus consequuntur ad nulla, delectus libero dicta? Explicabo rerum nobis dignissimos dolore officiis!</p>     
@@ -51,6 +53,26 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="bg-green">
+    <div class="container py-5">
+      <div class="py-5 video-section">
+        <div class="mr-2 my-auto">
+            <h1 class="pb-3">Take a tour of Pinewood School</h1>
+            <p>Join us as Ivana from Pinewood shows you around the school. Explore classrooms, check out our facilties and find out why students choose to improve their English here.</p>
+            <div class="">
+                <button class="button my-2">Contact us</button>
+            </div>
+        </div>
+        <div class="ml-2">
+            <video class="video" controls>
+            <source src="../assets/videos/about.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video> 
+        </div>
+      </div>      
     </div>
 </section>
 
@@ -117,26 +139,6 @@
                 <button class="button" type="submit">Get your test</button>
             </div> 
         </form>       
-    </div>
-</section>
-
-<section class="bg-green">
-    <div class="container py-5">
-      <div class="py-5 video-section">
-        <div class="mr-2">
-            <h1 class="pb-3">Take a tour of Pinewood School</h1>
-            <p>Join us as Ivana from Pinewood shows you around the school. Explore classrooms, check out our facilties and find out why students choose to improve their English here.</p>
-            <div class="">
-                <button class="button my-2">Contact us</button>
-            </div>
-        </div>
-        <div class="ml-2">
-            <video class="video" controls>
-            <source src="../assets/videos/about.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video> 
-        </div>
-      </div>      
     </div>
 </section>
 

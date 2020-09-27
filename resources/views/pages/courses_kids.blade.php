@@ -58,7 +58,7 @@
       <aside class="w-25 bg-light py-5">
 
         <section class="pt-5 pb-3">
-          <div class="bg-green px-3 py-4">
+          <div class="bg-green px-2 py-4">
             <h4>Newsletter</h4>
             <form action="" method="" class="footer-subscribe">
               <div>
@@ -72,7 +72,7 @@
         </section>
         
         <section class="py-5">
-          <div class="aside">
+          <div class="aside pb-3">
             <h4 class="aside-title white-text">Nasi kursevi</h4>
               <a href="">Engleski za decu</a>
               <a href="">Engleski za tinejdzere</a>
@@ -82,8 +82,8 @@
           </div>
         </section>
 
-        <section class="py-5">
-          <h4>Blog</h4>
+        <section class="p-2 bg-green">
+          <h4 class="py-3">Blog</h4>
           <div class="blog-aside pb-3">
             <div class="">
                 <a href=""><img src="../assets/images/header.jpg" alt=""></a>
@@ -112,7 +112,7 @@
           </div> 
         </section>
       </aside>
-      
+
     </div>
 </div>
 
